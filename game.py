@@ -31,7 +31,7 @@ class Game:
         self._users = {}
         self.winner = 0
         self._master_start_time: datetime = datetime.now()
-        self.timedelta = 60
+        self.timedelta = 5
 
     def start(self):
         self._word_list = settings.word_list.copy()
